@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.cdnfonts.com/css/astera');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white:#fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #566981;
+    --dark5: #cbdad5;
+    --cyan1: #009383;
+    --dark6: #2f2f46;
+    --verde: #1C2725;
+    --verdeecuro: #499C70;
+    --verdelogo: #025C79;
+    --musgo: #2F4538;
+}
+
+body{
+    background-color:var(--verde);
+    height: 100vh;
+    font-family: 'Lato';
+}
+header{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--verde);
+    min-height: 50px;
+}
+
+.imglogo img{
+    right: 95vh;
+    width: 15vh;
+    top: 3vh;
+    position: absolute;
+    padding: 2px;
+} 
+
+.divIframe{
+    top: 20vh;
+    left: 8vh;
+    justify-content: left;
+    position: absolute;
+    width: 100%;
+    min-height:600px;
+    display: flex;
+    padding: 5rem;
+    gap: 0rem;
+   
+}
+
+.divIframe2{
+    top: 20vh;
+    right: 8vh;
+    justify-content: right;
+    position: absolute;
+    width: 100%;
+    min-height:600px;
+    display: flex;
+    padding: 5rem;
+    gap: 0rem;
+}
+    
+
